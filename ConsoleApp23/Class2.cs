@@ -100,6 +100,7 @@ namespace ConsoleApp23
 
         public void ReveerseNumberAndPalindrom(int number)
         {
+
             int num = number;
             int revNum = 0;
             while (num != 0)
