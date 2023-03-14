@@ -15,6 +15,7 @@ namespace ConsoleApp23
             class2.MultipalOF_2And3(100);
             class2.MultipalOf_17(100);
             class2.SumOfDigitsOfNumber(12345);
+            class2.ReveerseNumber(12345);
             Console.ReadLine();
         }
     }
