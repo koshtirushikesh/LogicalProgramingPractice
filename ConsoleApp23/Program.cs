@@ -12,6 +12,7 @@ namespace ConsoleApp23
             class2.PositveOrNegativ(-10);
             class2.LargestOfTwo(50,60);
             class2.NumberDivisebalBy2(14);
+            class2.MultipalOF_2And3(12);
             Console.ReadLine();
         }
     }

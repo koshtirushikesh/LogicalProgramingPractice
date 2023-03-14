@@ -52,5 +52,13 @@ namespace ConsoleApp23
             else
                 Console.WriteLine(number + ": is not divisable by 2");
         }
+
+        public void MultipalOF_2And3(int number)
+        {
+            if (number % 2 == 0 && number % 3 == 0)
+                Console.WriteLine(number + ": is divisable by 2 and 3");
+            else
+                Console.WriteLine(number + ": is not divisable by 2 and 3");
+        }
     }
 }
