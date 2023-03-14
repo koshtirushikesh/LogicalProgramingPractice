@@ -63,5 +63,13 @@ namespace ConsoleApp23
             }
             Console.WriteLine("Sum of multipal of 2 and 3: " + sum);
         }
+
+        public void MultipalOf_17(int max)
+        {
+            Console.Write("Multipal of 17: ");
+            for (int i = 1; i <= max; i++)
+                if (i % 17 == 0)
+                    Console.Write(i + " ");
+        }
     }
 }
