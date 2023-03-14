@@ -71,5 +71,18 @@ namespace ConsoleApp23
                 if (i % 17 == 0)
                     Console.Write(i + " ");
         }
+
+        public void SumOfDigitsOfNumber(int number)
+        {
+            int num = number;
+            int sum = 0;
+            while (num != 0)
+            {
+                int rem = num % 10;
+                sum += rem;
+                num = num / 10;
+            }
+            Console.WriteLine("\nsum : " + sum);
+        }
     }
 }
