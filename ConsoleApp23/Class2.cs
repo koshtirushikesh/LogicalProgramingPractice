@@ -7,7 +7,7 @@ namespace ConsoleApp23
     {
         public void EvenOdd()
         {
-            int num = 0;
+            int num = 3;
             for (int i = 0; i < num; i++)
             {
                 if (i % 2 == 0)
@@ -15,7 +15,7 @@ namespace ConsoleApp23
                     //Console.WriteLine("Even"+i);
                 }
                 else
-                    Console.WriteLine("odd" + i);
+                    Console.WriteLine(num + " odd");
             }
         }
 
@@ -43,6 +43,14 @@ namespace ConsoleApp23
             num2 = num1;
             Console.WriteLine("Number 1: " + num1);
             Console.WriteLine("Number 2: " + num2);
+        }
+
+        public void NumberDivisebalBy2(int number)
+        {
+            if (number % 2 == 0)
+                Console.WriteLine(number + ": is divisable by 2");
+            else
+                Console.WriteLine(number + ": is not divisable by 2");
         }
     }
 }

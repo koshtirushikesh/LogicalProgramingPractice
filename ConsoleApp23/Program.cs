@@ -11,6 +11,7 @@ namespace ConsoleApp23
             class2.EvenOdd();
             class2.PositveOrNegativ(-10);
             class2.LargestOfTwo(50,60);
+            class2.NumberDivisebalBy2(14);
             Console.ReadLine();
         }
     }
