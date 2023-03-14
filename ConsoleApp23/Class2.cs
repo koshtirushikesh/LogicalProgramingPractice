@@ -53,12 +53,15 @@ namespace ConsoleApp23
                 Console.WriteLine(number + ": is not divisable by 2");
         }
 
-        public void MultipalOF_2And3(int number)
+        public void MultipalOF_2And3(int max)
         {
-            if (number % 2 == 0 && number % 3 == 0)
-                Console.WriteLine(number + ": is divisable by 2 and 3");
-            else
-                Console.WriteLine(number + ": is not divisable by 2 and 3");
+            int sum = 0;
+            for (int i = 0; i <= max; i++)
+            {
+                if (i % 2 == 0 && i % 3 == 0)
+                    sum += i;
+            }
+            Console.WriteLine("Sum of multipal of 2 and 3: " + sum);
         }
     }
 }
