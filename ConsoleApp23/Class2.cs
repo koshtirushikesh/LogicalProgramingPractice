@@ -113,5 +113,24 @@ namespace ConsoleApp23
                 Console.WriteLine(number + " is Palindrome");
             }
         }
+
+        public void MathematicalOperations()
+        {
+            Console.Write("1st number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("2nd number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("1.Multiplication \n2.Divide \n3.Subtraction \n4.Addition\nEnter The option: ");
+            int operation = Convert.ToInt32(Console.ReadLine());
+
+            switch (operation)
+            {
+                case 1: int result = num1 * num2; Console.WriteLine("Result: " + result); break;
+                case 2: float result1 = (float)num1 / (float)num2; Console.WriteLine("Result: " + result1); break;
+                case 3: result = num1 - num2; Console.WriteLine("Result: " + result); break;
+                case 4: result = num1 + num2; Console.WriteLine("Result: " + result); break;
+            }
+        }
     }
 }

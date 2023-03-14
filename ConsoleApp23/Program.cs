@@ -6,7 +6,6 @@ namespace ConsoleApp23
     {
         static void Main(string[] args)
         {
-
             Class2 class2 = new Class2();
             class2.EvenOdd();
             class2.PositveOrNegativ(-10);
@@ -17,6 +16,7 @@ namespace ConsoleApp23
             class2.SumOfDigitsOfNumber(12345);
             class2.ReveerseNumber(12345);
             class2.ReveerseNumberAndPalindrom(12321);
+            class2.MathematicalOperations();
             Console.ReadLine();
         }
     }
