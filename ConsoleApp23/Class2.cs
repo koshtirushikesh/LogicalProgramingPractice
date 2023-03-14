@@ -19,5 +19,14 @@ namespace ConsoleApp23
             }
         }
 
+        public void PositveOrNegativ()
+        {
+            int num = 0;
+            if (num < 0)
+                Console.WriteLine("negativ number");
+            else
+                Console.WriteLine("possitive number");
+        }
+
     }
 }
